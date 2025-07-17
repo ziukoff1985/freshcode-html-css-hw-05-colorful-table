@@ -54,7 +54,7 @@ th:not(:first-child) {
   background-color: rgb(230, 201, 127);
 }
 
-.table__body__row:nth-child(2n + 2) {
+.table__body__row:nth-child(even) {
   background-color: rgb(211, 211, 211);
 }
 
