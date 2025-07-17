@@ -1,1 +1,57 @@
+/* Reset styles */
 @import url("./reset.css");
+
+/* Table styles */
+
+.table {
+  border: 3px solid rgb(238, 58, 9);
+  border-collapse: separate;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.table__caption {
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.table__caption::first-line {
+  color: rgb(211, 50, 50);
+}
+
+.table__caption::after {
+  content: "#05";
+  color: rgb(148, 14, 205);
+}
+
+.table__header__cell,
+.table__body__cell,
+.table__foot__cell {
+  border: 1px solid blue;
+  border-collapse: separate;
+}
+
+.table__head {
+  background-color: rgb(249, 226, 197);
+}
+
+.table__body__cell:first-child {
+  background-color: aqua;
+}
+
+.table__body__row:nth-child(odd) {
+  background-color: rgb(230, 201, 127);
+}
+
+.table__body__row:nth-child(even) {
+  background-color: rgb(211, 211, 211);
+}
+
+.table__foot__row .table__foot__cell:first-child {
+  background-color: salmon;
+}
+
+.table__foot__row .table__foot__cell:last-child {
+  background-color: salmon;
+}
