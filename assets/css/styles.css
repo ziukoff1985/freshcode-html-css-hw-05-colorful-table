@@ -3,6 +3,19 @@
 
 /* Table styles */
 
+/* visually-hidden for validation */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 .table {
   border: 5px solid rgb(255, 55, 0);
   border-collapse: separate;
