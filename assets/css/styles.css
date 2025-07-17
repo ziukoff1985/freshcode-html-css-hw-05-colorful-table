@@ -13,7 +13,7 @@
 }
 
 tr {
-  height: 18px;
+  height: 16px;
 }
 
 .table__caption {
@@ -36,6 +36,10 @@ tr {
 .table__foot__cell {
   border: 1px solid blue;
   border-collapse: separate;
+}
+
+.table__header__row th:not(:first-child) {
+  width: 30%;
 }
 
 .table__header__row:only-child {
