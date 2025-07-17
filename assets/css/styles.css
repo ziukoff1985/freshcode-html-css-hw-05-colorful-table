@@ -4,22 +4,22 @@
 /* Table styles */
 
 .table {
-  border: 3px solid rgb(255, 55, 0);
+  border: 5px solid rgb(255, 55, 0);
   border-collapse: separate;
   width: 70%;
   margin: 0 auto;
   text-align: center;
-  font-size: 10px;
+  font-size: 32px;
 }
 
 tr {
-  height: 16px;
+  height: 48px;
 }
 
 .table__caption {
   margin-bottom: 4px;
   margin-top: 8px;
-  font-size: 14px;
+  font-size: 48px;
 }
 
 .table__caption::first-line {
@@ -34,7 +34,7 @@ tr {
 .table__header__cell,
 .table__body__cell,
 .table__foot__cell {
-  border: 1px solid blue;
+  border: 3px solid blue;
   border-collapse: separate;
 }
 
