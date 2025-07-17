@@ -38,8 +38,8 @@ tr {
   border-collapse: separate;
 }
 
-.table__header__row th:not(:first-child) {
-  width: 30%;
+th:not(:first-child) {
+  width: 31%;
 }
 
 .table__header__row:only-child {
