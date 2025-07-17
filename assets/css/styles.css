@@ -4,16 +4,22 @@
 /* Table styles */
 
 .table {
-  border: 3px solid rgb(238, 58, 9);
+  border: 3px solid rgb(255, 55, 0);
   border-collapse: separate;
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   text-align: center;
+  font-size: 10px;
+}
+
+tr {
+  height: 18px;
 }
 
 .table__caption {
-  margin-bottom: 8px;
+  margin-bottom: 4px;
   margin-top: 8px;
+  font-size: 14px;
 }
 
 .table__caption::first-line {
@@ -32,7 +38,7 @@
   border-collapse: separate;
 }
 
-.table__head {
+.table__header__row:only-child {
   background-color: rgb(249, 226, 197);
 }
 
@@ -44,14 +50,10 @@
   background-color: rgb(230, 201, 127);
 }
 
-.table__body__row:nth-child(even) {
+.table__body__row:nth-child(2n + 2) {
   background-color: rgb(211, 211, 211);
 }
 
-.table__foot__row .table__foot__cell:first-child {
-  background-color: salmon;
-}
-
-.table__foot__row .table__foot__cell:last-child {
+.table__foot__row:only-child {
   background-color: salmon;
 }
