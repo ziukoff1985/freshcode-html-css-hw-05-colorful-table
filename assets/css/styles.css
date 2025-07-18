@@ -59,6 +59,7 @@ tbody tr:nth-child(odd) {
 
 tbody tr:nth-child(odd):hover {
   font-weight: 700;
+  cursor: pointer;
 }
 
 tbody tr:nth-child(even) {
@@ -67,6 +68,7 @@ tbody tr:nth-child(even) {
 
 tbody tr:nth-child(even):hover {
   font-weight: 700;
+  cursor: pointer;
 }
 
 tfoot tr:only-of-type {
