@@ -4,16 +4,15 @@
 
 /* Table styles */
 
-table:only-of-type {
+table {
   border: 5px solid rgb(255, 55, 0);
-  border-collapse: separate;
   width: 70%;
   margin: 0 auto;
   text-align: center;
   font-size: 32px;
 }
 
-caption:only-of-type {
+caption {
   color: rgb(0, 0, 0);
   margin-bottom: 4px;
   margin-top: 8px;
@@ -33,9 +32,8 @@ tr {
   height: 48px;
 }
 
-tr:only-child th,
-tr:only-child td,
-tbody tr td {
+th,
+td {
   border: 3px solid blue;
   border-collapse: separate;
 }
@@ -44,12 +42,12 @@ th:not(:first-child) {
   width: 31%;
 }
 
-thead tr:only-child {
+thead tr {
   background-color: rgb(249, 235, 217);
   font-size: 36px;
 }
 
-tbody tr td:first-child {
+tbody tr td:first-of-type {
   background-color: aqua;
 }
 
@@ -71,12 +69,12 @@ tbody tr:nth-child(even):hover {
   cursor: pointer;
 }
 
-tfoot tr:only-of-type {
+tfoot tr {
   background-color: salmon;
 }
 
 /* visually-hidden for validation */
-h1:only-of-type {
+h1 {
   position: absolute;
   width: 1px;
   height: 1px;
