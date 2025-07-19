@@ -2,7 +2,7 @@
 @import url("./reset.css");
 
 /* Table styles */
-table {
+section table:only-of-type {
   border: 5px solid rgb(255, 55, 0);
   width: 70%;
   margin: 0 auto;
@@ -10,7 +10,7 @@ table {
   font-size: 32px;
 }
 
-caption {
+table caption:only-of-type {
   margin-bottom: 4px;
   margin-top: 8px;
   font-size: 48px;
@@ -25,7 +25,9 @@ caption::after {
   color: rgb(148, 14, 205);
 }
 
-tr {
+thead tr:only-child,
+tfoot tr:only-child,
+tbody tr {
   height: 48px;
 }
 
@@ -39,7 +41,7 @@ th:not(:first-child) {
   width: 31%;
 }
 
-thead tr {
+thead tr:only-child {
   background-color: rgb(249, 235, 217);
   font-size: 36px;
 }
@@ -66,7 +68,7 @@ tbody tr:nth-child(even):hover {
   cursor: pointer;
 }
 
-tfoot tr {
+tfoot tr:only-child {
   background-color: salmon;
 }
 
