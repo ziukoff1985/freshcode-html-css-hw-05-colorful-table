@@ -63,18 +63,14 @@ tbody tr:nth-child(odd) {
   background-color: rgb(230, 201, 127);
 }
 
-tbody tr:nth-child(odd):hover {
+tbody tr:nth-child(odd):hover,
+tbody tr:nth-child(even):hover {
   font-weight: 700;
   cursor: pointer;
 }
 
 tbody tr:nth-child(even) {
   background-color: rgb(207, 207, 207);
-}
-
-tbody tr:nth-child(even):hover {
-  font-weight: 700;
-  cursor: pointer;
 }
 
 /* Using a pseudoclass is not necessary for this selector */
