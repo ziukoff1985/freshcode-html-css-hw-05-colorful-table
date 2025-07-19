@@ -18,14 +18,18 @@ section table:first-of-type {
 table caption:last-of-type {
   margin-bottom: 4px;
   margin-top: 8px;
-  font-size: 48px;
+  font-size: 0;
 }
 
 caption::first-line {
   color: rgb(211, 50, 50);
 }
 
-caption::after {
+span {
+  font-size: 48px;
+}
+
+span::after {
   content: "#05";
   color: rgb(148, 14, 205);
 }
